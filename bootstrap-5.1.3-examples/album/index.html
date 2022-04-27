@@ -8,15 +8,15 @@
     <meta name="generator" content="Hugo 0.88.1">
     <title>Album example · Bootstrap v5.1</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/"> <!-- 캐노니컬 태그란 사이트 내 URL 주소는 다르지만 동일한 내용의 중복된 페이지가 있을 때 페이지에 코드를 삽입하여 검색엔진에 대표가 되는 URL 주소를 알려주는 역할을 하는 태그입니다. -->
     <!-- Bootstrap core CSS -->
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
+      .bd-placeholder-img { /* bd-placeholder-img는 미리 클래스를 정의해놓은 것. */
+        font-size: 1.125rem; /* rem 단위는  문서의 최상위 요소, 즉 html 요소의 크기의 몇 배인지로 크기를 정합니다. */
         text-anchor: middle; /* svg text의 anchor point가 중앙*/
-        -webkit-user-select: none;
+        -webkit-user-select: none; /* 유저가 img를 드래그하여 select를 하지 못하게 none 설정. */
         -moz-user-select: none;
         user-select: none;
       }
@@ -31,7 +31,7 @@
   <body>
     
 <header>
-  <div class="collapse bg-dark" id="navbarHeader">
+  <div class="collapse bg-danger" id="navbarHeader"> <!-- collapse는 버튼이나 메뉴를 누르면 숨겨져있는 내용이 나오면서 펼쳐지는 스타일. -->
     <!-- So, to create the layout you want, create a container (<div class="container">). 
     Next, create a row (<div class="row">). Then, add the desired number of columns (tags with appropriate .col-*-* classes). 
     Note that numbers in .col-*-* should always add up to 12 for each row. -->
